@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A0029199251C7B8E003C225A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A0029198251C7B8E003C225A /* .gitignore */; };
+		A002919B251C7D30003C225A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002919A251C7D30003C225A /* Model.swift */; };
 		A071D3BC251C7B0D00409895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071D3BB251C7B0D00409895 /* AppDelegate.swift */; };
 		A071D3BE251C7B0D00409895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071D3BD251C7B0D00409895 /* SceneDelegate.swift */; };
 		A071D3C0251C7B0D00409895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071D3BF251C7B0D00409895 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A0029198251C7B8E003C225A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A002919A251C7D30003C225A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A071D3B8251C7B0D00409895 /* 4ahitm-medtmc-u1-address_formular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4ahitm-medtmc-u1-address_formular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A071D3BB251C7B0D00409895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A071D3BD251C7B0D00409895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A071D3C6251C7B0E00409895 /* LaunchScreen.storyboard */,
 				A071D3C9251C7B0E00409895 /* Info.plist */,
 				A0029198251C7B8E003C225A /* .gitignore */,
+				A002919A251C7D30003C225A /* Model.swift */,
 			);
 			path = "4ahitm-medtmc-u1-address_formular";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				A071D3C0251C7B0D00409895 /* ViewController.swift in Sources */,
 				A071D3BC251C7B0D00409895 /* AppDelegate.swift in Sources */,
 				A071D3BE251C7B0D00409895 /* SceneDelegate.swift in Sources */,
+				A002919B251C7D30003C225A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33GP3753KS;
 				INFOPLIST_FILE = "4ahitm-medtmc-u1-address_formular/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-leonding.4ahitm.-ahitm-medtmc-u1-address-formular";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htlleonding.4ahitm.medtmc.u1.address-formular";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,12 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33GP3753KS;
 				INFOPLIST_FILE = "4ahitm-medtmc-u1-address_formular/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-leonding.4ahitm.-ahitm-medtmc-u1-address-formular";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htlleonding.4ahitm.medtmc.u1.address-formular";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
